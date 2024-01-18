@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+
+.side{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+    overflow: hidden;
+    position: absolute;
+}
+
+.side .title{
+    font-family: "montserrat", sans-serif;
+    font-size: 8vw;
+    margin: 0px 15vw;
+    width: 70vw;
+}
+
+.side .fancy{
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 1.3em;
+    line-height: 0.8em;
+
+}
+
+#leftSide {
+    background-color: black;
+    z-index: 2;
+}
+
+
+#rightSide{
+    background-color: #a3e635;
+}
+
+#leftSide .title{
+    color: white;
+}
+
+#leftSide .fancy{
+    color: #a3e635;
+}
+
+#rightSide .title{
+    color: black;
+}
+
+#rightSide .fancy{
+    color: white;
+}
